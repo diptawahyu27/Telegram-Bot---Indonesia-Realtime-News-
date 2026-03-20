@@ -1,0 +1,19 @@
+{
+  "name": "telegram-news-bot",
+  "version": "1.0.0",
+  "description": "Real-time Telegram news bot powered by Detik.com RSS feed",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "keywords": ["telegram", "bot", "rss", "news", "detik"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "rss-parser": "^3.13.0"
+  }
+}
